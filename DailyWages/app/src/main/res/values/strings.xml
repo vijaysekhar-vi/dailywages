@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Daily Wages</string>
+
+
+    <string name="patient_list_label">Employee List</string>
+    <string name="search_string">Search by Name or Phone</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="statitics">Statitics</string>
+    <string name="expenses">Expenses</string>
+
+    <string name="exit">Exit</string>
+
+    <string name="show_more_fields">Add more fields</string>
+
+    <string name="attendance">Attendance</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+
+    <string-array name="attendance_status">
+        <item>Present</item>
+        <item>Absent</item>
+        <item>Half day</item>
+        <item>Holiday</item>
+    </string-array>
+
+
+</resources>

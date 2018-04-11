@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/idEmployeeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/id_employee_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/idEmployeeName"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/callEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:contentDescription="Call Button"
+            android:paddingRight="10dp"
+            android:src="@drawable/call_button" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

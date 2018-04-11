@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hogslab.weeklywages.activities.MainActivity" >
+
+    <item
+        android:id="@+id/idSave"
+        android:orderInCategory="100"
+        android:title="Save Patient"
+        android:icon="@drawable/done_button"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/idDelete"
+        android:orderInCategory="100"
+        android:title="Delete Patient"
+        android:icon="@drawable/delete_button"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/idEmployeeList"
+        android:orderInCategory="100"
+        android:title="@string/patient_list_label"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/id_statitics"
+        android:orderInCategory="100"
+        android:title="@string/statitics"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/id_expenses"
+        android:orderInCategory="100"
+        android:title="@string/expenses"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/idContactUs"
+        android:orderInCategory="100"
+        android:title="@string/contact_us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/idExit"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never"/>
+
+</menu>

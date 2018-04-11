@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hogslab.weeklywages.activities.MainActivity" >
+
+    <item
+        android:id="@+id/idEdit"
+        android:orderInCategory="100"
+        android:title="Edit Patient"
+        android:icon="@drawable/edit_button"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/idEmployeeList"
+        android:orderInCategory="100"
+        android:title="@string/patient_list_label"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/idContactUs"
+        android:orderInCategory="100"
+        android:title="@string/contact_us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/idExit"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never"/>
+
+</menu>
